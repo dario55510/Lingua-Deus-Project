@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prodavnica1_lekcija2"
+    app:startDestination="@id/prodavnica1_lekcija2_fragment1">
+    <fragment
+        android:id="@+id/prodavnica1_lekcija2_fragment1"
+        android:name="com.example.linguadeus.prodavnica1_lekcija2_fragment1"
+        android:label="fragment_prodavnica1_lekcija2_fragment1"
+        tools:layout="@layout/fragment_prodavnica1_lekcija2_fragment1" >
+        <action
+            android:id="@+id/action_prodavnica1_lekcija2_fragment1_to_prodavnica1_lekcija2_fragment2"
+            app:destination="@id/prodavnica1_lekcija2_fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/prodavnica1_lekcija2_fragment2"
+        android:name="com.example.linguadeus.prodavnica1_lekcija2_fragment2"
+        android:label="fragment_prodavnica1_lekcija2_fragment2"
+        tools:layout="@layout/fragment_prodavnica1_lekcija2_fragment2" >
+        <action
+            android:id="@+id/action_prodavnica1_lekcija2_fragment2_to_prodavnica1_lekcija2_fragment3"
+            app:destination="@id/prodavnica1_lekcija2_fragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/prodavnica1_lekcija2_fragment3"
+        android:name="com.example.linguadeus.prodavnica1_lekcija2_fragment3"
+        android:label="fragment_prodavnica1_lekcija2_fragment3"
+        tools:layout="@layout/fragment_prodavnica1_lekcija2_fragment3" >
+        <action
+            android:id="@+id/action_prodavnica1_lekcija2_fragment3_to_prodavnica1_lekcija2_fragment4"
+            app:destination="@id/prodavnica1_lekcija2_fragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/prodavnica1_lekcija2_fragment4"
+        android:name="com.example.linguadeus.prodavnica1_lekcija2_fragment4"
+        android:label="fragment_prodavnica1_lekcija2_fragment4"
+        tools:layout="@layout/fragment_prodavnica1_lekcija2_fragment4" >
+        <action
+            android:id="@+id/action_prodavnica1_lekcija2_fragment4_to_prodavnica1_lekcija2_fragment5"
+            app:destination="@id/prodavnica1_lekcija2_fragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/prodavnica1_lekcija2_fragment5"
+        android:name="com.example.linguadeus.prodavnica1_lekcija2_fragment5"
+        android:label="fragment_prodavnica1_lekcija2_fragment5"
+        tools:layout="@layout/fragment_prodavnica1_lekcija2_fragment5" >
+        <action
+            android:id="@+id/action_prodavnica1_lekcija2_fragment5_to_prodavnica1_lekcija2_pobeda"
+            app:destination="@id/prodavnica1_lekcija2_pobeda" />
+    </fragment>
+    <fragment
+        android:id="@+id/prodavnica1_lekcija2_pobeda"
+        android:name="com.example.linguadeus.prodavnica1_lekcija2_pobeda"
+        android:label="fragment_prodavnica1_lekcija2_pobeda"
+        tools:layout="@layout/fragment_prodavnica1_lekcija2_pobeda" />
+</navigation>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".uvod1_ucenje1"
+        tools:ignore="SpeakableTextPresentCheck"
+    android:background="@color/un_blue">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:onClick="button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="هذا"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:onClick="button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ذل ك"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:onClick="button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مع السلام ة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:onClick="button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="خبز"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button13"
+                    android:onClick="button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="معجنا ت"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:onClick="button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="كم سعر ... ؟"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button15"
+                    android:onClick="button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="أريد سحب... يورو"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button16"
+                    android:onClick="button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نقو د"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button17"
+                    android:onClick="button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="السلام عليكم، أريد شراء تذكرةذهاب و إياب إلى ... في الساعة .. ."
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button18"
+                    android:onClick="button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تذكرة ذهاب و إيا ب"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button19"
+                    android:onClick="button11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تذكرة ذها ب"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button20"
+                    android:onClick="button12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="واح د"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button21"
+                    android:onClick="button13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="إثنا ن"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button22"
+                    android:onClick="button14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ثلاث ة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button23"
+                    android:onClick="button15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="أربعة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button24"
+                    android:onClick="button16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="خمس ة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button25"
+                    android:onClick="button17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ست ة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button26"
+                    android:onClick="button18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="سبع ة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button27"
+                    android:onClick="button19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ثماني ة "
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button28"
+                    android:onClick="button20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ثماني ة"
+                    android:backgroundTint="@color/un_red"/>
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تسع ة"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button21"/>
+
+                <Button
+                    android:id="@+id/button68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="إسم ي"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button22"/>
+
+                <Button
+                    android:id="@+id/button69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="كش ك"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button23"/>
+
+                <Button
+                    android:id="@+id/button70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="متجر / محل"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button24"/>
+
+                <Button
+                    android:id="@+id/button71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="شار ع"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button25"/>
+
+                <Button
+                    android:id="@+id/button72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="خبز بلدي "
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button26"/>
+
+                <Button
+                    android:id="@+id/button73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="الكبا ب الصربي ‘تشيفابي’"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button27"/>
+
+                <Button
+                    android:id="@+id/button74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="هل يمكنني الحصول على قائمة الطعام ؟"
+                    android:backgroundTint="@color/un_red"
+                    android:onClick="button28"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>

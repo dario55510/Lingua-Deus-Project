@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medicina1_ucenje"
+    android:background="@color/un_blue">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="صيدلية  "
+                android:backgroundTint="@color/un_red"
+                android:onClick="button1"/>
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="دواء"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button2"/>
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="فيتامي ن"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button3"/>
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="لصق جرو ح"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button4"/>
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ضمادة"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button5"/>
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="كحول"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button6"/>
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مسكن ا لل م"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button7"/>
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="دواء الزكا م"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button8"/>
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="البروبيوتي ك"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button9"/>
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ترمومتر، محرار"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button10"/>
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="يؤلمني  "
+                android:backgroundTint="@color/un_red"
+                android:onClick="button11"/>
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإسعاف"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button12"/>
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإسعاف"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button13"/>
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم ا لإسعاف الول ي"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button14"/>
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أحتاج إلى الطبي ب"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button15"/>
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="يؤلمني بطن ي"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button16"/>
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="أنزف"
+                android:backgroundTint="@color/un_red"
+                android:onClick="button17"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/uvod1_lekcija3"
+    app:startDestination="@id/uvod1_lekcija3_fragment1">
+
+    <fragment
+        android:id="@+id/uvod1_lekcija3_fragment1"
+        android:name="com.example.linguadeus.uvod1_lekcija3_fragment1"
+        android:label="fragment_uvod1_lekcija3_fragment1"
+        tools:layout="@layout/fragment_uvod1_lekcija3_fragment1" >
+        <action
+            android:id="@+id/action_uvod1_lekcija3_fragment1_to_uvod1_lekcija3_fragment2"
+            app:destination="@id/uvod1_lekcija3_fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/uvod1_lekcija3_fragment2"
+        android:name="com.example.linguadeus.uvod1_lekcija3_fragment2"
+        android:label="fragment_uvod1_lekcija3_fragment2"
+        tools:layout="@layout/fragment_uvod1_lekcija3_fragment2" >
+        <action
+            android:id="@+id/action_uvod1_lekcija3_fragment2_to_uvod1_lekcija3_fragment3"
+            app:destination="@id/uvod1_lekcija3_fragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/uvod1_lekcija3_fragment3"
+        android:name="com.example.linguadeus.uvod1_lekcija3_fragment3"
+        android:label="fragment_uvod1_lekcija3_fragment3"
+        tools:layout="@layout/fragment_uvod1_lekcija3_fragment3" >
+        <action
+            android:id="@+id/action_uvod1_lekcija3_fragment3_to_uvod1_lekcija3_fragment4"
+            app:destination="@id/uvod1_lekcija3_fragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/uvod1_lekcija3_fragment4"
+        android:name="com.example.linguadeus.uvod1_lekcija3_fragment4"
+        android:label="fragment_uvod1_lekcija3_fragment4"
+        tools:layout="@layout/fragment_uvod1_lekcija3_fragment4" >
+        <action
+            android:id="@+id/action_uvod1_lekcija3_fragment4_to_uvod1_lekcija3_fragment5"
+            app:destination="@id/uvod1_lekcija3_fragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/uvod1_lekcija3_fragment5"
+        android:name="com.example.linguadeus.uvod1_lekcija3_fragment5"
+        android:label="fragment_uvod1_lekcija3_fragment5"
+        tools:layout="@layout/fragment_uvod1_lekcija3_fragment5" >
+        <action
+            android:id="@+id/action_uvod1_lekcija3_fragment5_to_uvod1_lekcija3_fragment6"
+            app:destination="@id/uvod1_lekcija3_fragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/uvod1_lekcija3_fragment6"
+        android:name="com.example.linguadeus.uvod1_lekcija3_fragment6"
+        android:label="fragment_uvod1_lekcija3_fragment6"
+        tools:layout="@layout/fragment_uvod1_lekcija3_fragment6" >
+        <action
+            android:id="@+id/action_uvod1_lekcija3_fragment6_to_uvod1_lekcija3_pobeda"
+            app:destination="@id/uvod1_lekcija3_pobeda" />
+    </fragment>
+    <fragment
+        android:id="@+id/uvod1_lekcija3_pobeda"
+        android:name="com.example.linguadeus.uvod1_lekcija3_pobeda"
+        android:label="fragment_uvod1_lekcija3_pobeda"
+        tools:layout="@layout/fragment_uvod1_lekcija3_pobeda" />
+</navigation>

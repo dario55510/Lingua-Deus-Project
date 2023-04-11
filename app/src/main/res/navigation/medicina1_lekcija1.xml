@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medicina1_lekcija1"
+    app:startDestination="@id/medicina1_lekcija1_fragment1">
+
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment1"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment1"
+        android:label="fragment_medicina1_lekcija1_fragment1"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment1" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment1_to_medicina1_lekcija1_fragment2"
+            app:destination="@id/medicina1_lekcija1_fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment2"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment2"
+        android:label="fragment_medicina1_lekcija1_fragment2"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment2" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment2_to_medicina1_lekcija1_fragment3"
+            app:destination="@id/medicina1_lekcija1_fragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment3"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment3"
+        android:label="fragment_medicina1_lekcija1_fragment3"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment3" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment3_to_medicina1_lekcija1_fragment4"
+            app:destination="@id/medicina1_lekcija1_fragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment4"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment4"
+        android:label="fragment_medicina1_lekcija1_fragment4"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment4" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment4_to_medicina1_leckija1_fragment5"
+            app:destination="@id/medicina1_leckija1_fragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_leckija1_fragment5"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment5"
+        android:label="fragment_medicina1_leckija1_fragment5"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment5" >
+        <action
+            android:id="@+id/action_medicina1_leckija1_fragment5_to_medicina1_lekcija1_fragment6"
+            app:destination="@id/medicina1_lekcija1_fragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment6"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment6"
+        android:label="fragment_medicina1_lekcija1_fragment6"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment6" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment6_to_medicina1_lekcija1_fragment7"
+            app:destination="@id/medicina1_lekcija1_fragment7" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment7"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment7"
+        android:label="fragment_medicina1_lekcija1_fragment7"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment7" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment7_to_medicina1_lekcija1_fragment8"
+            app:destination="@id/medicina1_lekcija1_fragment8" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment8"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment8"
+        android:label="fragment_medicina1_lekcija1_fragment8"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment8" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment8_to_medicina1_lekcija1_fragment9"
+            app:destination="@id/medicina1_lekcija1_fragment9" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment9"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment9"
+        android:label="fragment_medicina1_lekcija1_fragment9"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment9" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment9_to_medicina1_lekcija1_fragment10"
+            app:destination="@id/medicina1_lekcija1_fragment10" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_fragment10"
+        android:name="com.example.linguadeus.medicina1_lekcija1_fragment10"
+        android:label="fragment_medicina1_lekcija1_fragment10"
+        tools:layout="@layout/fragment_medicina1_lekcija1_fragment10" >
+        <action
+            android:id="@+id/action_medicina1_lekcija1_fragment10_to_medicina1_lekcija1_pobeda"
+            app:destination="@id/medicina1_lekcija1_pobeda" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicina1_lekcija1_pobeda"
+        android:name="com.example.linguadeus.medicina1_lekcija1_pobeda"
+        android:label="fragment_medicina1_lekcija1_pobeda"
+        tools:layout="@layout/fragment_medicina1_lekcija1_pobeda" />
+</navigation>
